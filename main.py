@@ -108,7 +108,7 @@ class EthicalRansomware:
         self.root.bind("<Control-Q>", lambda e: "break")
         self.root.bind("<Control-C>", lambda e: "break")
         
-        # Configurar cor de fundo (azul do Windows - RGB: 0, 120, 215)
+        # Configurar cor de fundo 
         self.root.configure(bg='#0078d7')
         
         # Definir foco na janela
@@ -382,4 +382,5 @@ class EthicalRansomware:
 
 if __name__ == "__main__":
     app = EthicalRansomware()
+
     app.run()
